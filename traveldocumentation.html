@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+    <title> Technical Documentation</title>
+</head>
+   <body bgcolor="skyblue">
+        <div>
+            <table bgcolor="skyblue" align="right" width="100%">
+              <tr>
+                <td align="left"><img src="/media/logo1.png" width="100" /></td>
+                <td><a href="#introduction">introduction</a></td>
+                <td><a href="#HTML Elements">Html Elements</a></td>
+                <td><a href="#Html Headings">html headings</a></td>
+                <td><a href="#Html style">Html style</a></td>
+              </tr>
+            </table>
+            <img src="/media/bg.png" alt="">
+        </div>
+        <div>
+            <section id="introduction">
+                <h2 align="center">Introduction</h2>
+                <p>
+                    HTML is an acronmy for hyper text markup language,and it is the standard language for creating web-page. every web-page
+                     you surf on your browser is built using HTML to provide a proper structure to the web-page so all the content or data 
+                     of the page could represent adaquately. A stand alone HTML can create only static and skelaton looking black and white
+                      pages,but with the help of CSS and JavaScript ,We can create a more interavtive and intuitive web-page.When wwe try 
+                      to visit a website or click on the link, We basically request the server to show us the page, Then the server acts on 
+                      our request and send us an appropriate HTML. Document as a response , Then this HTML Documnet parsed by browser, 
+                      and we able to see the content. 
+                </p>
+                   <h2>HTML Document</h2>
+            
+                
+                    &lt;!DOCTYPE html&gt;<br/>
+                    &lt;html&gt;<br>
+                    &lt;head&gt;<br>
+                    &lt;title&gt;Title of the document&lt;/title&gt;<br>
+                    &lt;/head&gt;<br>
+                    
+                    &lt;body&gt;<br>
+                    The content of the document...... <br>
+                    &lt;/body&gt;<br>
+                    &lt;/html&gt;  <br>
+            </section>
+        </div>
+        <div>
+            <section id="HTML Elements">
+                <h2><u>HTML Elements</u></h2>
+                <p>
+                    The HTML Elements provides the semantic meaning to the web-page content. We usually interchangeably use the term HTML 
+                    elements and tags, but technically both are different. An HTML tag is just a chracter inside the angle bracket 
+                    &lt;&gt;, Where as the HTML elements is a collection of starting tag, its attribute , content and end tag. 
+                    For example...
+                </p>
+                <p>
+                    &lt;class="para"&gt;Hello World &lt;/p&gt;
+                </p>
+            </section>
+        </div>
+        <div>
+            <section id="Html Headings">
+                <h2>HTML Heading</h2>
+                <p>
+                    To dispaly the section heading, title or subtitle We can use the HTML heading tags. In HTML 5 We have 6 heading tags 
+                    start from &lt;h1&gt; upto &lt;h6&gt;,Where &lt;h1&gt; specify the largest heading and &lt;h6&gt; represents the 
+                    smallest or the sub heading. if the content is specified by heading tags,Then it would be displayed large and bold 
+                    as compared to other text content present on the web-page.<b>Example</b>
+                </p>
+                <pre> 
+                            &lt;h1&gt;First Heading &lt;/h1&gt;
+                            &lt;h2&gt;Second Heading &lt;/h2&gt;
+                            &lt;h3&gt;Third Heading &lt;/h3&gt;
+                            &lt;h4&gt;Forth Heading &lt;/h4&gt;
+                            &lt;h5&gt;Fifth Heading &lt;/h5&gt;
+                            &lt;h6&gt;Sixth Heading &lt;/h6&gt;
+                </pre>
+            </section>
+        </div>
+        <div>
+            <h2><u>HTML Pragraph</u></h2>
+            <p>
+                <ul>
+                    <li>
+                        In HTML paragraph can be define using  &lt;p&gt; element. Paragraph Text always starts from a new line, the 
+                        browser parsed the  &lt;p&gt; tag and automatically add some margin and white space after the end  &lt;/p&gt; 
+                        tag.
+                    </li>
+                </ul>
+                <pre>
+                    &lt;p&gt;Hello! and welcome to SCALive&lt;/p&gt;
+                    &lt;p&gt;Here you get to know all about the latest technology. &lt;/p&gt;
+                </pre>
+            </p>
+        </div>
+
+        <div>
+            <section id="Html style">
+                <h2>HTML Style</h2>
+                <ul>
+                    <li>
+                        Every browser has specific engine that parses the HTML document and dispaly a default style of the page content.
+                    </li>
+                </ul>
+                <pre>
+                    &lt;body style="background-color:yellow;"&gt;
+                    &lt;h1&gt;SCALive&lt;/h1&gt;
+                    &lt;p&gt;welcome to SCALive. &lt;/p&gt;
+                    &lt;/body&gt;
+                </pre>
+                <h2>HTML Formatting</h2>
+                <ul>
+                    <li>
+                        In,HTML we have many special elements that can provide special meaning to text content.
+                    </li>
+                </ul>
+                <table width="100%" border="2">
+                    <tr bgcolor="white" align="center">
+                        <th>HTML ELEMENTS</th>
+                        <th>DESCRIPTION</th>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;b&gt;&lt;/b&gt;</td>
+                        <td>Bold the text</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;strong&gt;&lt;/strong&gt;</td>
+                        <td>an alternative for &lt;b&gt;, Which tells that text is essential.</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;i&gt;&lt;/i&gt;</td>
+                        <td>italic the text.</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;em&gt;&lt;/em&gt;</td>
+                        <td>Similar to italic but used when we want to emphasize the text.</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;mark&gt;&lt;/mark&gt;</td>
+                        <td>It mark the text with a default "Yellow" background color.</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;small&gt;&lt;/small&gt;</td>
+                        <td>Decrease the text size. </td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;del&gt;&lt;/del&gt;</td>
+                        <td>it print a cross line over the text.</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;ins&gt;&lt;/ins&gt;</td>
+                        <td>Represents the inserted text by putting an underline.</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;sub&gt;&lt;/sub&gt;</td>
+                        <td>this element is used to display the subscript.</td>
+                    </tr>
+                    <tr align="center">
+                        <td>&lt;sup&gt;&lt;/sup&gt;</td>
+                        <td>it can make a text superscript.</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </body>
+</html>
